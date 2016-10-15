@@ -25,6 +25,10 @@
                 "title": "GoGo: Show current savepoint"
             },
             {
+                "command": "extension.gogo-cursor.saveAndNext",
+                "title": "GoGo: Save to current and go next available savepoint"
+            },
+            {
                 "command": "extension.gogo-cursor.goToPosition1",
                 "title": "GoGo: go to cursor savepoint 1"
             },
@@ -64,14 +68,9 @@
         "keybindings": [
             
             {
-                "command": "extension.gogo-cursor.showCurrent",
+                "command": "extension.gogo-cursor.saveAndNext",
                 "key": "ctrl+alt+g",
                 "mac": "ctrl+cmd+g"
-            },
-            {
-                "command": "extension.gogo-cursor.clearAll",
-                "key": "ctrl+alt+g+g",
-                "mac": "ctrl+cmd+g+g"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition1",

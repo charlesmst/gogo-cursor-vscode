@@ -10,12 +10,10 @@ export function activate(context: vscode.ExtensionContext) {
         });
         context.subscriptions.push(goToPosition);
     }
+    context.subscriptions.push(vscode.commands.registerCommand('extension.gogo-cursor.saveAndNext', () => goGoCursor.saveAndNext(vscode.window.activeTextEditor)));
 
     context.subscriptions.push(vscode.commands.registerCommand('extension.gogo-cursor.clearAll', () => goGoCursor.clearAll()));
     context.subscriptions.push(vscode.commands.registerCommand('extension.gogo-cursor.showCurrent',() => goGoCursor.showCurrent()));
-    vscode.workspace.onDidChangeTextDocument((e) => {
-
-    })
     vscode.workspace.onDidChangeTextDocument((textChanges) => {
         goGoCursor.applyTextChanges(textChanges);
     })
