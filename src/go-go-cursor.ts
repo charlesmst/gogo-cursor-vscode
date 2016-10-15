@@ -37,7 +37,10 @@ export class GoGoCursor {
 
     }
     goToPoint(savePointNumber: number) {
-        vscode.window.showTextDocument(this.savePoints[savePointNumber].textEditor.document).then(x => {
+        let p:PromiseLike<any> = Promise.resolve();
+        if (vscode.window.activeTextEditor !== this.savePoints[savePointNumber].textEditor)
+            p = vscode.window.showTextDocument(this.savePoints[savePointNumber].textEditor.document)
+        p.then(x => {
 
             this.savePoints[savePointNumber].textEditor.selection = new vscode.Selection(this.savePoints[savePointNumber].anchorPoint, this.savePoints[savePointNumber].anchorPoint);
             //Go to the end of line
@@ -46,7 +49,7 @@ export class GoGoCursor {
             })
             vscode.window.activeTextEditor.revealRange(new vscode.Range(this.savePoints[savePointNumber].anchorPoint, this.savePoints[savePointNumber].anchorPoint), vscode.TextEditorRevealType.InCenterIfOutsideViewport)
             this.currentSavepoint = savePointNumber
-            
+
         });
     }
     savePoint(textEditor: vscode.TextEditor, anchorPosition: number) {
