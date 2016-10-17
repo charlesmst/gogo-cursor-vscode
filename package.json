@@ -1,7 +1,6 @@
 {
     "name": "gogo-cursor-savepoints",
     "displayName": "GoGo cursor savepoints",
-    
     "description": "Save multiple cursor points and navigate between them",
     "version": "0.2.0",
     "publisher": "charlesmst",
@@ -9,12 +8,13 @@
         "vscode": "^1.5.0"
     },
     "categories": [
-        "Productivity","Other"
+        "Productivity",
+        "Other"
     ],
     "homepage": "https://github.com/charlesmst/gogo-cursor-vscode",
     "repository": {
         "type": "git",
-        "url" : "https://github.com/charlesmst/gogo-cursor-vscode.git"
+        "url": "https://github.com/charlesmst/gogo-cursor-vscode.git"
     },
     "activationEvents": [
         "*"
