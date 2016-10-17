@@ -13,7 +13,7 @@ When you change your cursor, the last cursor will be saved in the last position,
 
 The above image shows an example of how to use GoGo Cursor savepoints:
 
-\!\[Usage Example\]\(images/usage.gif\)
+![Usage Example](images/usage.gif)
 
 ## Release Notes
 
@@ -30,10 +30,3 @@ Multiple cursors, Shortcuts and status bar of the current cursor
 * Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
 * Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

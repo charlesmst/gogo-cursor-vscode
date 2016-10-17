@@ -17,7 +17,6 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.workspace.onDidChangeTextDocument((textChanges) => {
         goGoCursor.applyTextChanges(textChanges);
     })
-
 }
 
 export function deactivate() {
