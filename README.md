@@ -5,22 +5,21 @@ This plugin let you save multiple savepoints between multiple documents
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+You can have multiple cursors pressing Ctrl + Alt + 1 To 9
+When you change your cursor, the last cursor will be saved in the last position, and if the new position already exists, your cursor will move to that point
 
-For example if there is an image subfolder under your extension project workspace:
+`Ctrl+Alt+1` or `Cmd+Alt+1` - Navigate between the cursors
+`Ctrl+Alt+g` or `Cmd+Alt+g` - Save current cursor position and go to next
 
-\!\[feature X\]\(images/feature-x.png\)
+The above image shows an example of how to use GoGo Cursor savepoints:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
+\!\[Usage Example\]\(images/usage.fig\)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of GoGo cursor
+Multiple cursors, Shortcuts and status bar of the current cursor
 
 -----------------------------------------------------------------------------------------------------------
 
