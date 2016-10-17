@@ -1,7 +1,7 @@
 {
-    "name": "gogo-cursor",
-    "displayName": "gogo-cursor",
-    "description": "Save multiple cursor points in the ducument and navigate  between them",
+    "name": "gogo-cursor-savepoints",
+    "displayName": "GoGo cursor savepoints",
+    "description": "Save multiple cursor points and navigate between them",
     "version": "0.0.1",
     "publisher": "charlesmst",
     "engines": {
@@ -66,7 +66,6 @@
             }
         ],
         "keybindings": [
-            
             {
                 "command": "extension.gogo-cursor.saveAndNext",
                 "key": "ctrl+alt+g",

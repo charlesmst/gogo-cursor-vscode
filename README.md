@@ -13,7 +13,7 @@ When you change your cursor, the last cursor will be saved in the last position,
 
 The above image shows an example of how to use GoGo Cursor savepoints:
 
-\!\[Usage Example\]\(images/usage.fig\)
+\!\[Usage Example\]\(images/usage.gif\)
 
 ## Release Notes
 
