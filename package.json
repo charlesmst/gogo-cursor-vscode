@@ -75,53 +75,43 @@
         "keybindings": [
             {
                 "command": "extension.gogo-cursor.saveAndNext",
-                "key": "ctrl+alt+g",
-                "mac": "ctrl+cmd+g"
+                "key": "alt+shift+g"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition1",
-                "key": "ctrl+alt+1",
-                "mac": "ctrl+cmd+1"
+                "key": "alt+shift+1"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition2",
-                "key": "ctrl+alt+2",
-                "mac": "ctrl+cmd+2"
+                "key": "alt+shift+2"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition3",
-                "key": "ctrl+alt+3",
-                "mac": "ctrl+cmd+3"
+                "key": "alt+shift+3"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition4",
-                "key": "ctrl+alt+4",
-                "mac": "ctrl+cmd+4"
+                "key": "alt+shift+4"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition5",
-                "key": "ctrl+alt+5",
-                "mac": "ctrl+cmd+5"
+                "key": "alt+shift+5"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition6",
-                "key": "ctrl+alt+6",
-                "mac": "ctrl+cmd+6"
+                "key": "alt+shift+6"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition7",
-                "key": "ctrl+alt+7",
-                "mac": "ctrl+cmd+7"
+                "key": "alt+shift+7"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition8",
-                "key": "ctrl+alt+8",
-                "mac": "ctrl+cmd+8"
+                "key": "alt+shift+8"
             },
             {
                 "command": "extension.gogo-cursor.goToPosition9",
-                "key": "ctrl+alt+9",
-                "mac": "ctrl+cmd+9"
+                "key": "alt+shift+9"
             }
         ]
     },
