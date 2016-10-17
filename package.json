@@ -2,13 +2,14 @@
     "name": "gogo-cursor-savepoints",
     "displayName": "GoGo cursor savepoints",
     "description": "Save multiple cursor points and navigate between them",
-    "version": "0.2.0",
+    "version": "0.4.0",
     "publisher": "charlesmst",
+    "issues":"https://github.com/charlesmst/gogo-cursor-vscode/issues",
     "engines": {
         "vscode": "^1.5.0"
     },
+    "license": "MIT",
     "categories": [
-        "Productivity",
         "Other"
     ],
     "homepage": "https://github.com/charlesmst/gogo-cursor-vscode",
