@@ -1,5 +1,5 @@
 
-# GoGo Cursor: Cursor savepoints for vscode README
+# GoGo Cursor: Cursor savepoints for vscode
 
 This plugin let you save multiple savepoints between multiple documents
 
